@@ -9,7 +9,7 @@ export default function Relogio() {
       setHoraAtual(new Date());
     }, 1000);
 
-    return () => clearInterval(intervalo);
+    return () => clearInterval(intervalo); 
   }, []);
 
   const diasSemana = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
@@ -32,6 +32,7 @@ export default function Relogio() {
 
   return (
     <div>
+      <h2>Meu Relógio</h2>
       <div className="relogio-digital">{dataFormatada}</div>
 
       <div className="relogio-analogico">
@@ -48,3 +49,4 @@ export default function Relogio() {
     </div>
   );
 }
+ 
