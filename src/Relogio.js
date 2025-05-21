@@ -32,6 +32,7 @@ export default function Relogio() {
 
   return (
     <div>
+      <div className="Centralizar">
       <h2>Meu Relógio</h2>
       <div className="relogio-digital">{dataFormatada}</div>
 
@@ -45,6 +46,7 @@ export default function Relogio() {
         <div className="numero num-3">3</div>
         <div className="numero num-6">6</div>
         <div className="numero num-9">9</div>
+      </div>
       </div>
     </div>
   );
