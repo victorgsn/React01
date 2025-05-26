@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  margin: 0;
+}
+
+.contador {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  margin: 40px auto;
+  background: #fff;
+  text-align: center;
+}
+
+.total {
+  margin-bottom: 12px;
+}
+
+.input-total,
+.input-contador {
+  font-size: 18px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.secoes-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.secao {
+  flex: 1;
+}
+
+.secao img {
+  width: 60px;
+  margin-bottom: 6px;
+}
+
+.botoes {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+button {
+  background: #17a11e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:nth-child(2) {
+  background: #bd271c;
+}
+
+.botao-reset {
+  position: relative;
+  top: 150px;
+  cursor: pointer;
+  outline: none;
+}
+
+.botao-reset img {
+  width: 20px;
+  height: 20px;
+}
