@@ -18,21 +18,22 @@ function Gallery() {
     {
       id: 1,
       name: "Neymar Jr.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Neymar_2018.jpg",
+      imageUrl: "./neymar.png", 
       size: 110
     },
     {
       id: 2,
       name: "Fernanda Torres",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Fernanda_Torres.jpg",
+      imageUrl: "./fernandatorres.png", 
       size: 100
     },
     {
       id: 3,
       name: "Will Smith",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/Will_Smith_2011%2C_2.jpg",
+      imageUrl: "./willsmith.png", 
       size: 100
     }
+  
   ];
 
   return (
