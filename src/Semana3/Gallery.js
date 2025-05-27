@@ -2,14 +2,17 @@ import React from "react";
 
 function Profile({ name, imageUrl, size = 100 }) {
   return (
-    <img
-      className="avatar"
-      src={imageUrl}
-      alt={name}
-      width={size}
-      height={size}
-      style={{ borderRadius: "8px", margin: "8px" }}
-    />
+    <div style={{ textAlign: "center", margin: "0 16px" }}>
+      <img
+        className="avatar"
+        src={imageUrl}
+        alt={name}
+        width={size}
+        height={size}
+        style={{ borderRadius: "8px", display: "block", margin: "0 auto" }}
+      />
+      <p>{name}</p>
+    </div>
   );
 }
 
@@ -38,16 +41,16 @@ function Gallery() {
   return (
     <section>
       <h2>Galeria de Famosos</h2>
-      {people.map((person) => (
-        <div key={person.id}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        {people.map((person) => (
           <Profile
+            key={person.id}
             name={person.name}
             imageUrl={person.imageUrl}
             size={person.size}
           />
-          <p>{person.name}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 }
