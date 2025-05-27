@@ -30,7 +30,7 @@ function Gallery() {
     {
       id: 3,
       name: "Will Smith",
-      imageUrl: "/images/willsmith.png",
+      imageUrl: "/images/willsimth.png",
       size: 100
     }
   ];
