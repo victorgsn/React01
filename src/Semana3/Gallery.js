@@ -22,7 +22,7 @@ function Gallery() {
       id: 1,
       name: "Neymar Jr.",
       imageUrl: "/images/neymar.png",
-      size: 100
+      size: 110
     },
     {
       id: 2,
