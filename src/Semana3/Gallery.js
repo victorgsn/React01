@@ -18,22 +18,21 @@ function Gallery() {
     {
       id: 1,
       name: "Neymar Jr.",
-      imageUrl: "./neymar.png", 
+      imageUrl: "/images/neymar.png",
       size: 110
     },
     {
       id: 2,
       name: "Fernanda Torres",
-      imageUrl: "./fernandatorres.png", 
+      imageUrl: "/images/fernandatorres.png",
       size: 100
     },
     {
       id: 3,
       name: "Will Smith",
-      imageUrl: "./willsmith.png", 
+      imageUrl: "/images/willsmith.png",
       size: 100
     }
-  
   ];
 
   return (
@@ -54,4 +53,5 @@ function Gallery() {
 }
 
 export { Gallery, Profile };
+
 
