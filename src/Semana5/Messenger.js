@@ -4,9 +4,9 @@ import ContactList from "./ContactList";
 import "./Messenger.css";
 
 const contacts = [
-  { name: "Kaynan Lima", email: "Kaynan@mail.com" },
-  { name: "João Vitor", email: "jv@mail.com" },
-  { name: "Victor Gabriel", email: "vg@mail.com" },
+  { name: "Victor Gabriel", email: "victorgabriel@mail.com" },
+  { name: "João Vitor", email: "joaovictor@mail.com" },
+  { name: "Kaynan lima", email: "kaynanlima@mail.com" },
 ];
 
 export default function Messenger() {
